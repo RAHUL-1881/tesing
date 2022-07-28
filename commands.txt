@@ -1,0 +1,19 @@
+* "/" represents things that should be added after "/".
+
+1. git init : for initializing git repository.
+2. ls : to list all the items in the folder.
+3. cd /path of the folder : to change the directory.
+4. ls -a : to show all the hidden files.
+5. git status : to show which files has been modified.
+6. git add . : to add all the files to the staging area.
+7. git add /name of the folder : adds the perticular folder to the staging area.
+8. git commit -m "/comment" : commits the changes to git that are in the staging area.
+9. cat /name of the folder : shoes all the content in the folder.
+10. rm -rf /name of the file : deletes the file.
+11. git log :shows all the history commited up until now.
+12. git reset /id of the commit you have to change to : this changes the whole thing the same as the commit that you have pasted.
+13. git stash : keeps all the files,folders that are in the staged area someware that can be brought back when need.
+14. git stash pop : loads all the files in the back stage to the main staging area.
+15. git stash clear: used to delete all the data that are in the back stage with out bringing them to the main staging area.
+16. git remote add origin /url : to link the git hub repository to your local host.
+17. git push origin master : to push the all the changes that are commited to the remote repository with the specified branch.
